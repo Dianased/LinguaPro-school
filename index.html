@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinguaPro — курсы и онлайн-школа английского языка</title>
+  <meta name="description" content="Онлайн-школа английского языка LinguaPro — индивидуальные занятия, разговорный клуб и бесплатный пробный урок.">
+  <meta name="keywords" content="английский онлайн, курсы английского, онлайн школа, разговорный клуб, LinguaPro">
+  <meta name="author" content="LinguaPro Team">
+
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="LinguaPro — онлайн-школа английского языка">
+  <meta property="og:description" content="Современные курсы английского, разговорная практика и обучение с носителями.">
+
+
+  <meta property="og:url" content="https://dianased.github.io/LinguaPro-school">
+  <meta property="og:image" content="https://dianased.github.io/LinguaPro-school/preview.png">
+  <meta property="og:site_name" content="LinguaPro">
+
+
+  <meta name="Diana" content="LinguaPro Team">
+  <meta name="copyright" content="LinguaPro © 2025">
+
+
+
+  <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+  <header class="site">
+    <div class="container">
+      <div class="header-logo">
+        <span class="logo" href="#" aria-label="LinguaPro - на главную">📘LinguaPro</span>
+      </div>
+
+      <nav class="nav menu" aria-label="Навигация по сайту">
+        <ul>
+          <li><a href="#levels" onclick="return slowScroll('#levels')">Уровни</a></li>
+          <li><a href="#club" onclick="return slowScroll('#club')">Разговорный клуб</a></li>
+          <li><a href="#teachers" onclick="return slowScroll('#teachers')">Преподаватели</a></li>
+          <li><a href="#pricing" onclick="return slowScroll('#pricing')">Цены</a></li>
+          <li><a href="#contact" onclick="return slowScroll('#contact')">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <div class="actions">
+        <a class="btn" href="#levels">Программа</a>
+        <a class="btn light" href="#signup">Бесплатный урок</a>
+      </div>
+
+      <button id="openMenu" class="burger"  aria-label="Открыть меню" 
+      type="button"><i class="fa-solid fa-bars" aria-hidden="true"></i></button>
+
+
+      <nav id="mobile-menu" class="mobile-menu"  role="dialog" aria-hidden="true">
+        <ul>
+          <li><a href="#levels" onclick="return slowScroll('#levels')">Уровни</a></li>
+          <li><a href="#club" onclick="return slowScroll('#club')">Разговорный клуб</a></li>
+          <li><a href="#teachers" onclick="return slowScroll('#teachers')">Преподаватели</a></li>
+          <li><a href="#pricing" onclick="return slowScroll('#pricing')">Цены</a></li>
+          <li><a href="#contact" onclick="return slowScroll('#contact')">Контакты</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+    <div class="container hero-grid">
+      <div class="intro">
+
+        <span class="tag">Старт каждую неделю</span>
+        <h1>Английский, с которым вы <span class="grad">говорите
+            уверенно</span></h1>
+        <p class="lead"> Живые занятия с преподавателем, разговорный клуб с
+          носителями и подготовка к экзаменам.
+          Программы A1–C1 для взрослых и подростков.</p>
+        <div class="cta-row">
+          <a class="btn light" href="#signup">Записаться на пробный</a>
+          <a class="btn" href="#levels">Смотреть на уровни</a>
+        </div>
+
+        <div class="stats" role="group" aria-label="Показатели">
+          <div class="stat"><b>10 000+</b><span>учеников</span></div>
+          <div class="stat"><b>4.9/5</b><span>средняя оценка</span></div>
+          <div class="stat"><b>3 месяца</b><span>до уверенного
+              общения</span></div>
+        </div>
+      </div>
+
+      <div class="media panel reveal-up">
+        <figure class="video" id="videoBox">
+          <button id="playVideo" class="play" aria-label="Смотреть видео">▶</button>
+        </figure>
+
+        <figcaption class="meta">5-минутный обзор методики · Без регистрации</figcaption>
+      </div>
+    </div>
+  </main>
+
+
+  <section id="levels" class="section" aria-labelledby="levels-title">
+    <div class="container">
+      <div class="section-head">
+        <h2>Программы по уровням</h2>
+        <p>Подбираем курс под ваш текущий уровень и цели</p>
+      </div>
+
+      <div class="grid-3">
+        <article class="card reveal-up"> 
+          <div class="emj" aria-hidden="true">🌱</div>
+          <h3>A1–A2: Начальный</h3>
+          <p>Грамматика базы, 800+ слов, уверенные бытовые диалоги.</p>
+          <p>8 недель · 2 занятия/неделю</p>
+        </article>
+
+        <article class="card reveal-up _in">
+          <div class="emj" aria-hidden="true">🚀</div>
+          <h3>B1–B2: Средний</h3>
+          <p>Фразовые глаголы, сложные времена, письмо и презентации.</p>
+          <p>10 недель · 2–3 занятия/неделю</p>
+        </article>
+
+        <article class="card reveal-up last">
+          <div class="emj" aria-hidden="true">🎯</div>
+          <h3>IELTS / TOEFL</h3>
+          <p>Стратегии экзамена, speaking mock‑интервью и разбор эссе.</p>
+          <p>6 недель · интенсив</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="club" class="section alt" aria-labelledby="club-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="club-title">Разговорный клуб</h2>
+        <p>Практика говорения каждую неделю с носителями</p>
+      </div>
+      <div class="grid-2">
+        <div class="card reveal-up">
+          <h3>Темы и форматы</h3>
+          <ul class="list">
+            <li>Дебаты и ролевые игры</li>
+            <li>Бизнес‑кейсы и переговоры</li>
+            <li>Разбор фильмов и сериалов</li>
+          </ul>
+          <p class="meta">A2+ · группы по 6–8 человек · записи встреч</p>
+        </div>
+
+        <div class="card reveal-up">
+          <h3>Результат</h3>
+          <p class="lili">Снимаем языковой барьер, расширяем словарь, прокачиваем акцент и беглость.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="teachers" class="section" aria-labelledby="teachers-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="teachers-title">Преподаватели</h2>
+        <p>CELTA/DELTA, опыт 5+ лет, авторские материалы</p>
+      </div>
+
+      <div class="grid-3 teachers">
+        <div class="card person reveal-up">
+          <div class="avatar">
+            <img src="img/Anna.png" alt="Анна Петровна">
+          </div>
+          <div>
+            <h3>Анна Петрова</h3>
+            <div class="meta">CELTA · Экзаменатор IELTS · 7 лет</div>
+          </div>
+        </div>
+
+        <div class="card person reveal-up">
+          <div class="avatar">
+            <img src="img/MarkJohnson.png" alt="Mark Johnson — native business English teacher">
+          </div>
+          <div>
+            <h3>Mark Johnson</h3>
+            <div class="meta">Native Speaker · Business English · 8 лет</div>
+          </div>
+        </div>
+
+        <div class="card person reveal-up">
+          <div class="avatar">
+            <img src="img/ilya.png" alt="Илья Соколов — native business English teacher">
+          </div>
+          <div>
+            <h3>Илья Соколов</h3>
+            <div class="meta">DELTA · TOEFL Prep · 6 лет</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="section alt" aria-labelledby="pricing-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="pricing-title">Тарифы</h2>
+        <p>Первый урок — бесплатно. Возврат в течение 14 дней.</p>
+      </div>
+
+      <div class="pricing">
+        <div class="price-card reveal">
+          <h3>Групповой</h3>
+          <div class="price">от 2 900 ₽ / меc</div>
+          <ul class="meta list">
+            <li>2 занятия/неделю</li>
+            <li>Разговорный клуб</li>
+            <li>Домашние задания</li>
+          </ul>
+          <a class="btn" href="#signup">Выбрать</a>
+        </div>
+
+        <div class="price-card highlight reveal-up">
+          <div class="flag" aria-hidden="true">Популярно</div>
+          <h3>Индивидуальный</h3>
+          <div class="price">от 1 500 ₽ / урок</div>
+          <ul class="meta list">
+            <li>Личный план</li>
+            <li>Гибкий график</li>
+            <li>Подготовка к экзаменам</li>
+          </ul>
+          <a class="btn light" href="#signup">Записаться</a>
+        </div>
+
+        <div class="price-card reveal-up">
+          <h3>Корпоративный</h3>
+          <div class="price">по запросу</div>
+          <ul class="meta list">
+            <li>Бизнес‑тематики</li>
+            <li>Отчётность HR</li>
+            <li>Демо‑занятие</li>
+          </ul>
+          <a class="btn" href="#signup">Оставить заявку</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="section" aria-labelledby="faq-title">
+    <div class="container faq">
+      <div class="section-head">
+        <h2 id="faq-title">Часто задаваемые вопросы</h2>
+        <p>Коротко о важном</p>
+      </div>
+
+      <details class="reveal-up">
+        <summary>Есть ли записи занятий?</summary>
+        <p>Да, записи и материалы остаются с вами навсегда.</p>
+      </details>
+      <details class="reveal-up">
+        <summary>Как определить уровень?</summary>
+        <p>Пройдите 7‑минутный онлайн‑тест и бесплатное устное интервью.</p>
+      </details>
+
+      <details class="reveal-up"> 
+        <summary>Можно ли перенести урок?</summary> 
+        <p>Да, за 12 часов до начала занятия — без штрафов.</p>
+      </details>
+    </div>
+  </section>
+
+  <section id="contact" class="section cta" aria-labelledby="contact-title">
+    <div class="container cta-grid">
+      <div class="reveal-up">
+        <h2 id="contact-title">Запишитесь на бесплатный урок</h2>
+        <p class="meta">Пришлём план обучения и рекомендации по вашему уровню</p>
+        <ul class="meta list">
+          <li>Без предоплаты</li>
+          <li>Онлайн/офлайн форматы</li>
+          <li>Подходит взрослым и подросткам 12+</li>
+        </ul>
+      </div>
+
+      <form id="signup" class="panel reveal-up" novalidate>
+        
+        <input type="hidden" name="access_key" value="c92474c1-a9ff-46e8-90b6-7e222987d911">
+        <input type="hidden" name="subject" value="Новая заявка с сайта">
+        <input type="hidden" name="from_name" value="Сайт школы">
+        <input type="cheсkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display:none">
+
+
+        <div class="fields">
+          <label for="name">
+            <span>Имя</span>
+            <input id="name" name="name" type="text" required autocomplete="name" placeholder="Алексей">
+          </label>
+
+          <label for="email">
+            <span>Email</span>
+            <input id="email" name="email" type="email" required autocomplete="email" inputmode="email"
+              placeholder="you@mail.com">
+          </label>
+
+          <label for="level">
+            <span>Уровень</span>
+            <select id="level" name="level" required>
+              <option value disabled selected hidden>Ваш уровень</option>
+              <option value="A1">A1</option>
+              <option value="A2">A2</option>
+              <option value="B1">B1</option>
+              <option value="B2">B2</option>
+              <option value="C1">C1</option>
+            </select>
+          </label>
+
+          <label for="goal">
+            <span>Цель</span>
+            <select id="goal" name="goal" required>
+              <option value="" disabled selected hidden>Цель</option>
+              <option value="travel">Путешествия</option>
+              <option value="business">Работа/Бизнес</option>
+              <option value="relocation">Переезд/Учёба</option>
+              <option value="exams">Экзамены (IELTS/TOEFL)</option>
+            </select>
+          </label>
+
+          <label for="msg" class="full">
+            <span>Комментарий</span>
+            <textarea id="msg" name="msg" rows="3" placeholder="Расскажите о себе и расписании"></textarea>
+          </label>
+        </div>
+
+
+        <div class="consents">
+          <label>
+            <input type="checkbox" name="offer" required>
+            Я согласен с условиями <a href="/public/offer.html" target="_blank" style="color:aqua">публичной оферты</a>
+          </label>
+
+          <label>
+            <input type="checkbox" name="pdn" required>
+            Я даю согласие на <a href="/public/privacy.html" target="_blank" style="color:aqua">обработку персональных
+              данных</a>
+          </label>
+
+          <label>
+            <input type="checkbox" name="ads">
+            Я согласен на получение рекламной и информационной рассылки
+          </label>
+        </div>
+        <div class="form-actions">
+          <button class="btn light" type="submit">Отправить</button>
+          <span id="result" class="meta" role="status" aria-live="polite"></span>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <div class="container foot-row">
+      <div>© <span id="year"></span> LinguaPro</div>
+      <div class="socials" aria-label="Социальные сети">
+        <a href="#" aria-label="VK">VK</a>
+        <a href="#" aria-label="Telegram">Telegram</a>
+        <a href="#" aria-label="YouTube">YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+<script src="js/main.min.js"></script>
+</body>
+
+</html>
